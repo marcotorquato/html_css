@@ -59,6 +59,9 @@ section {
     font-family: var(3);
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -76,6 +79,19 @@ section.imagem > p {
     color: white;
     display: inline-block;
     padding: 10px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.219);
+}
+
+section#img01{
+    background-image: url('/desafio-cordel/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('/desafio-cordel/imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer{
